@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"      
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="EpgCategory">
+	<resultMap id="epgCategory-result"
+		class="sitv.epg.entity.business.DZDP_Category">
+		<result property="id" column="ID" />
+		<result property="name" column="NAME" />
+		<result property="pid" column="PID" />
+	</resultMap>
+	
+	<!-- 查询栏目 -->
+	<cacheModel id="getCategory_CM" type="LRU" readOnly="true"
+		serialize="false">
+		<flushInterval minutes="5" />
+		<property name="cache-size" value="100" />
+	</cacheModel>
+	<statement id="getCategoryByPid" resultMap="epgCategory-result"
+		cacheModel="getCategory_CM">
+		<![CDATA[
+            select * from dzdp_category_tree where pid = #pid# order by pid
+        ]]>
+	</statement>
+	
+
+
+</sqlMap>

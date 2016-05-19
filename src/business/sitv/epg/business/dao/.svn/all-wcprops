@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao
+END
+DZDP_CommentService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/DZDP_CommentService.java
+END
+businessAreaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/businessAreaService.java
+END
+EpisodeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/EpisodeService.java
+END
+SubscriberPPVService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/SubscriberPPVService.java
+END
+CollectionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/CollectionService.java
+END
+BusinessService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/BusinessService.java
+END
+CategoryItemService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/CategoryItemService.java
+END
+PlayerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/PlayerService.java
+END
+DZDP_CategoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/DZDP_CategoryService.java
+END
+EpgSubscriberService.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/EpgSubscriberService.java
+END
+DZDP_UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/DZDP_UserService.java
+END
+ADPuttingService.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/ADPuttingService.java
+END
+CustomerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/CustomerService.java
+END
+HistoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/HistoryService.java
+END
+DetailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/DetailService.java
+END
+CustomerDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/CustomerDao.java
+END
+BookmarkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/BookmarkService.java
+END
+SeriesmarkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/SeriesmarkService.java
+END
+DZDP_AddressService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/DZDP_AddressService.java
+END
+ProgramService.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/ProgramService.java
+END
+TemplateBindService.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/TemplateBindService.java
+END
+EpgBaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/EpgBaseDao.java
+END
+CategoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/CategoryService.java
+END
+VoteService.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/business/sitv/epg/business/dao/VoteService.java
+END

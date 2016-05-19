@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business
+END
+DZDP_User.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/DZDP_User.java
+END
+EpgPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/EpgPosition.java
+END
+DZDP_Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/DZDP_Comment.java
+END
+EpgSubjectArea.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/EpgSubjectArea.java
+END
+EpgTemplateBind.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/EpgTemplateBind.java
+END
+DZDP_Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/DZDP_Address.java
+END
+EpgBusiness.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/EpgBusiness.java
+END
+EpgSubjectPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/EpgSubjectPage.java
+END
+EpgHostProFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/EpgHostProFile.java
+END
+EpgADPutting.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/EpgADPutting.java
+END
+DZDP_Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/business/DZDP_Category.java
+END

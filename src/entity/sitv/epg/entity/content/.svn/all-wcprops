@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content
+END
+EpgBaseContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgBaseContent.java
+END
+EpgProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgProgram.java
+END
+EpgLiveChannelParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgLiveChannelParam.java
+END
+EpgRelContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgRelContent.java
+END
+Content.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/Content.java
+END
+EpgMedia.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgMedia.java
+END
+EpgPlayableContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgPlayableContent.java
+END
+IContent.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/IContent.java
+END
+EpgLiveChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgLiveChannel.java
+END
+EpgEpisode.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgEpisode.java
+END
+EpgSeries.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgSeries.java
+END
+EpgDetailProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgDetailProgram.java
+END
+EpgContentOffering.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgContentOffering.java
+END
+EpgSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgSchedule.java
+END
+SearchEpgProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/SearchEpgProgram.java
+END
+EpgSearchProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/content/EpgSearchProgram.java
+END

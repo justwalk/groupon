@@ -1,0 +1,77 @@
+10
+
+dir
+991
+http://192.168.1.220:8080/svn/JYH/Source/EPG/EPG_JYH_YUNNAN/src
+http://192.168.1.220:8080/svn/JYH
+
+
+
+2015-04-22T08:58:26.198065Z
+846
+gp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a4c646c8-8a45-aa42-8eb1-d566b814f36b
+
+common
+dir
+
+zhangjiagang
+dir
+
+log4j.properties
+file
+
+
+
+
+2015-10-09T04:04:13.843568Z
+cec9c90bf8ebba74cc11a424bfc58a04
+2014-12-31T08:30:14.802395Z
+87
+gp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4837
+
+business
+dir
+
+entity
+dir
+
+web
+dir
+

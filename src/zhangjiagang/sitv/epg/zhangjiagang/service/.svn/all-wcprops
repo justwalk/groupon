@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/service
+END
+AuthenticateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/service/AuthenticateService.java
+END
+MockLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/service/MockLoginService.java
+END
+LoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/service/LoginService.java
+END
+AuthenticateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/service/AuthenticateException.java
+END

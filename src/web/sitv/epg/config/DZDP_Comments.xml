@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"      
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="CommentsContent">
+	<resultMap id="commentsContent-result"
+		class="sitv.epg.entity.business.DZDP_Comment">
+		<result property="deal_id" column="DEAL_ID" />
+		<result property="title" column="TITLE" />
+		<result property="discription" column="DESCRIPTION" />
+		<result property="list_price" column="LIST_PRICE" />
+		<result property="current_price" column="CURRENT_PRICE" />
+		<result property="categories1" column="CATEGORIES1" />
+		<result property="categories2" column="CATEGORIES2" />
+		<result property="categories3" column="CATEGORIES3" />
+		<result property="categories4" column="CATEGORIES4" />
+		<result property="address" column="ADDRESS" />
+		<result property="top_address" column="TOP_ADDRESS" />
+		<result property="purchase_count" column="PURCHASE_COUNT" />
+		<result property="publish_date" column="PUBLISH_DATE" />
+		<result property="purchase_deadline" column="PURCHASE_DEADLINE" />
+		<result property="image_url" column="IMAGE_URL" />
+		<result property="s_images_url" column="S_IMAGES_URL" />
+		<result property="twimage_url" column="TWIMAGE_URL" />
+		<result property="discount_rate" column="DISCOUNT_RATE" />
+		<result property="recommend" column="RECOMMEND" />
+		<result property="details" column="DETAILS" />
+		<result property="special_tips" column="SPECIAL_TIPS" />
+		
+		
+	</resultMap>
+	
+<!-- 分类下按页取编排项  -->
+	<cacheModel id="getCommentByPage_CM" type="LRU" readOnly="true"
+		serialize="false">
+		<flushInterval minutes="5" />
+		<property name="cache-size" value="10000" />
+	</cacheModel>
+	<statement id="getCommentByPageOrderByPurchaseCount" resultMap="commentsContent-result"
+		cacheModel="getCommentByPage_CM">
+				select * from comments 
+				<dynamic prepend="WHERE">
+					now()>publish_date and purchase_deadline>now()
+					<isNotNull property="childCategoryId">
+						and categories1 like concat('%',#childCategoryId#,'%')
+					</isNotNull>
+					<isNotNull property="categoryId">
+						and categories4 =#categoryId#
+					</isNotNull>
+					<isNotNull property="address">
+						and address like concat('%',#address#,'%')
+					</isNotNull>
+					<isNotNull property="top_address">
+						and top_address like concat('%',#top_address#,'%')
+					</isNotNull>
+					<isNotNull property="recommend">
+						and recommend =#recommend#
+					</isNotNull>
+					order by purchase_count desc 
+				</dynamic>
+	</statement>
+	<statement id="getCommentByPageOrderByPublishDate" resultMap="commentsContent-result"
+		cacheModel="getCommentByPage_CM">
+				select * from comments 
+				<dynamic prepend="WHERE">
+					now()>publish_date and purchase_deadline>now()
+					<isNotNull property="childCategoryId">
+						and categories1 like concat('%',#childCategoryId#,'%')
+					</isNotNull>
+					<isNotNull property="categoryId">
+						and categories4=#categoryId#
+					</isNotNull>
+					<isNotNull property="address">
+						and address like concat('%',#address#,'%')
+					</isNotNull>
+					<isNotNull property="top_address">
+						and top_address like concat('%',#top_address#,'%')
+					</isNotNull>
+					<isNotNull property="recommend">
+						and recommend =#recommend#
+					</isNotNull>
+					order by publish_date desc 
+				</dynamic>
+	</statement>
+	<statement id="getCommentByPageOrderByDiscountRate" resultMap="commentsContent-result"
+		cacheModel="getCommentByPage_CM">
+				select * from comments 
+				<dynamic prepend="WHERE">
+					now()>publish_date and purchase_deadline>now()
+					<isNotNull property="childCategoryId">
+						and categories1 like concat('%',#childCategoryId#,'%')
+					</isNotNull>
+					<isNotNull property="categoryId">
+						and categories4=#categoryId#
+					</isNotNull>
+					<isNotNull property="address">
+						and address like concat('%',#address#,'%')
+					</isNotNull>
+					<isNotNull property="top_address">
+						and top_address like concat('%',#top_address#,'%')
+					</isNotNull>
+					<isNotNull property="recommend">
+						and recommend =#recommend#
+					</isNotNull>
+					order by discount_rate asc 
+				</dynamic>
+	</statement>
+	
+	<!-- 根据商品ID取得商品详细信息  -->
+	<cacheModel id="getGroupBuyItemDetail_CM" type="LRU" readOnly="true"
+		serialize="false">
+		<flushInterval minutes="5" />
+		<property name="cache-size" value="10000" />
+	</cacheModel>
+	<statement id="getGroupBuyItemDetail" resultMap="commentsContent-result"
+		cacheModel="getGroupBuyItemDetail_CM">
+		<![CDATA[
+			select * from comments where DEAL_ID = #dealId#
+		]]>
+	</statement>
+	
+<!-- 根据商品子分类获取3个推荐位  -->
+	<cacheModel id="getGroupBuyRecommandbyCat_CM" type="LRU" readOnly="true"
+		serialize="false">
+		<flushInterval minutes="5" />
+		<property name="cache-size" value="10000" />
+	</cacheModel>
+	<statement id="getGroupBuyRecommandbyCat" resultMap="commentsContent-result"
+		cacheModel="getGroupBuyRecommandbyCat_CM">
+		<![CDATA[
+			select * from comments 
+			where categories4 = #categoryId#
+		]]>
+	</statement>
+	
+<!-- 随机获取3个推荐位  -->
+	<cacheModel id="getGroupBuyRecommandDefault_CM" type="LRU" readOnly="true"
+		serialize="false">
+		<flushInterval minutes="5" />
+		<property name="cache-size" value="10000" />
+	</cacheModel>
+	<statement id="getGroupBuyRecommandDefault" resultMap="commentsContent-result"
+		cacheModel="getGroupBuyRecommandDefault_CM">
+		<![CDATA[
+			select * from comments
+			order by rand()
+		]]>
+	</statement>
+</sqlMap>

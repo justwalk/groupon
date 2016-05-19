@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/http/response
+END
+AuthResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/http/response/AuthResponse.java
+END
+GetUpsellOfferResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/http/response/GetUpsellOfferResponse.java
+END
+ZoneFreqInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/http/response/ZoneFreqInfo.java
+END
+LoginResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/http/response/LoginResponse.java
+END
+NavServerResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/http/response/NavServerResponse.java
+END
+StartResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/zhangjiagang/sitv/epg/zhangjiagang/http/response/StartResponse.java
+END

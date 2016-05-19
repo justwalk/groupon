@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/webapps/WEB-INF
+END
+epg-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/webapps/WEB-INF/epg-context.xml
+END
+epg-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/webapps/WEB-INF/epg-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/webapps/WEB-INF/web.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/webapps/WEB-INF/.cvsignore
+END

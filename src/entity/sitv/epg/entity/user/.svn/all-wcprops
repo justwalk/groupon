@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user
+END
+EpgSubscriber.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgSubscriber.java
+END
+EpgUserSeriesmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgUserSeriesmark.java
+END
+EpgUserBookmark.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgUserBookmark.java
+END
+EpgContentVote.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgContentVote.java
+END
+EpgMarkNum.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgMarkNum.java
+END
+EpgContentLabel.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgContentLabel.java
+END
+EpgCollectionNum.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgCollectionNum.java
+END
+EpgVoteRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgVoteRecord.java
+END
+EpgMyrentalAuth.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgMyrentalAuth.java
+END
+EpgUserHistoryNum.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgUserHistoryNum.java
+END
+EpgContentMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgContentMark.java
+END
+EpgSubscriberPPV.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgSubscriberPPV.java
+END
+EpgUserCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgUserCollection.java
+END
+EpgVoteNum.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgVoteNum.java
+END
+EpgUserHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/entity/sitv/epg/entity/user/EpgUserHistory.java
+END

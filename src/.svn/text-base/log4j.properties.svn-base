@@ -1,0 +1,107 @@
+log4j.rootLogger=INFO,mainLog
+log4j.appender.mainLog=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.mainLog.File=D:/epg_workspace/EPG_SITV_WJ/webapps/logs/syslog.log
+log4j.appender.mainLog.DatePattern='.'yyyyMMdd
+log4j.appender.mainLog.BufferedIO=true
+log4j.appender.mainLog.BufferSize=8192
+log4j.appender.mainLog.layout=org.apache.log4j.PatternLayout
+log4j.appender.mainLog.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [%t] (%F:%L) - %m%n
+
+#when deploy,following three lines can be noted, and syslog can be set to info
+log4j.appender.mainLog=org.apache.log4j.ConsoleAppender
+log4j.appender.mainLog.layout=org.apache.log4j.PatternLayout
+log4j.appender.mainLog.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm s,SSS}:%5p [%t] (%F:%L) - %m%n
+
+log4j.logger.syslog=INFO,mainLog
+log4j.additivity.syslog=false
+#log4j.logger.java.sql=DEBUG,mainLog
+#log4j.logger.java.sql = debug,ibatis 
+
+#login log
+log4j.logger.logon=INFO,logon
+log4j.additivity.logon=false
+log4j.appender.logon=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.logon.File=D:/epg_workspace/EPG_SITV_WJ/webapps/logs/logon.log
+log4j.appender.logon.DatePattern='.'yyyyMMdd
+log4j.appender.logon.BufferedIO=true
+log4j.appender.logon.BufferSize=8192
+log4j.appender.logon.layout=org.apache.log4j.PatternLayout
+log4j.appender.logon.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n
+
+#access log
+log4j.logger.page=INFO, page
+log4j.additivity.page=false
+log4j.appender.page=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.page.File= D:/epg_workspace/EPG_SITV_WJ/webapps/logs/access.log
+log4j.appender.page.DatePattern='.'yyyyMMdd
+#log4j.appender.page.BufferedIO=true
+#log4j.appender.page.BufferSize=8192
+log4j.appender.page.layout=org.apache.log4j.PatternLayout
+log4j.appender.page.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n
+log4j.appender.page=org.apache.log4j.ConsoleAppender
+
+#play log
+log4j.logger.play=INFO, play
+log4j.additivity.play=false
+log4j.appender.play=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.play.File= D:/epg_workspace/EPG_SITV_WJ/webapps/logs/play.log
+log4j.appender.play.DatePattern='.'yyyyMMdd
+log4j.appender.play.layout=org.apache.log4j.PatternLayout
+log4j.appender.play.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n
+
+#ad log
+log4j.logger.ad=INFO, ad
+log4j.additivity.ad=false
+log4j.appender.ad=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.ad.File= D:/epg_workspace/EPG_SITV_WJ/webapps/logs/ad.log
+log4j.appender.ad.DatePattern='.'yyyyMMdd
+log4j.appender.ad.layout=org.apache.log4j.PatternLayout
+log4j.appender.ad.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n
+
+log4j.logger.boclient=DEBUG,bolog
+log4j.additivity.boclient=false
+log4j.appender.bolog.BufferedIO=true
+log4j.appender.bolog.BufferSize=8192
+log4j.appender.bolog=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.bolog.File= D:/epg_workspace/EPG_SITV_WJ/webapps/logs/boclient.log
+log4j.appender.bolog.DatePattern='.'yyyyMMdd
+log4j.appender.bolog.layout=org.apache.log4j.PatternLayout
+log4j.appender.bolog.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [%t] (%F:%L) - %m%n
+
+#epg error log
+log4j.logger.errorlog=INFO, errorlog
+log4j.additivity.errorlog=false
+log4j.appender.errorlog=org.apache.log4j.DailyRollingFileAppender
+#log4j.appender.errorlog.BufferedIO=true
+#log4j.appender.errorlog.BufferSize=8192
+log4j.appender.errorlog.File= D:/epg_workspace/EPG_SITV_WJ/webapps/logs/error.log
+log4j.appender.errorlog.DatePattern='.'yyyyMMdd
+log4j.appender.errorlog.layout=org.apache.log4j.PatternLayout
+log4j.appender.errorlog.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n
+
+#auth log
+log4j.logger.auth=INFO,auth
+log4j.additivity.auth=false
+log4j.appender.auth=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.auth.File= D:/epg_workspace/EPG_SITV_WJ/webapps/logs/auth.log
+log4j.appender.auth.DatePattern='.'yyyyMMdd
+log4j.appender.auth.layout=org.apache.log4j.PatternLayout
+log4j.appender.auth.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n
+
+#order log
+log4j.logger.order=INFO,order
+log4j.additivity.order=false
+log4j.appender.order=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.order.File= D:/epg_workspace/EPG_SITV_WJ/webapps/logs/order.log
+log4j.appender.order.DatePattern='.'yyyyMMdd
+log4j.appender.order.layout=org.apache.log4j.PatternLayout
+log4j.appender.order.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n
+
+#bi log
+log4j.logger.bi=INFO,bi
+log4j.additivity.bi=false
+log4j.appender.bi=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.bi.File= ${catalina.base}/logs/bi.log
+log4j.appender.bi.DatePattern='.'yyyyMMdd
+log4j.appender.bi.layout=org.apache.log4j.PatternLayout
+log4j.appender.bi.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss}|%m%n

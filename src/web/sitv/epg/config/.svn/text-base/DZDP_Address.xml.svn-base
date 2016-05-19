@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap      
+    PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN"      
+    "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="EpgAddress">
+	<resultMap id="epgAddress-result"
+		class="sitv.epg.entity.business.DZDP_Address">
+		<result property="id" column="ID" />
+		<result property="name" column="NAME" />
+		<result property="pid" column="PID" />
+	</resultMap>
+	
+	<!-- 查询地区 -->
+	<cacheModel id="getAddress_CM" type="LRU" readOnly="true"
+		serialize="false">
+		<flushInterval minutes="5" />
+		<property name="cache-size" value="100" />
+	</cacheModel>
+	
+	<statement id="getAddressByPid" resultMap="epgAddress-result"
+		cacheModel="getAddress_CM">
+		<![CDATA[
+			select * from dzdp_address_tree where pid = #pid# order by id
+		]]>
+	</statement>
+	<statement id="getAllAddress" resultMap="epgAddress-result"
+		cacheModel="getAddress_CM">
+		<![CDATA[
+			select * from dzdp_address_tree ad join (SELECT id as n_ad_id FROM dzdp_address_tree WHERE dzdp_address_tree.pid =  '2') n_ad  where ad.pid = n_ad.n_ad_id order by ad.id limit 14
+		]]>
+	</statement>
+</sqlMap>

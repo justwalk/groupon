@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config
+END
+EpgConfigUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config/EpgConfigUtils.java
+END
+EpgStartupServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config/EpgStartupServlet.java
+END
+DZDP_Address.xml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config/DZDP_Address.xml
+END
+DZDP_Comments.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config/DZDP_Comments.xml
+END
+EpgCustomer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config/EpgCustomer.xml
+END
+DZDP_Category.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config/DZDP_Category.xml
+END
+DZDP_User.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/JYH/!svn/ver/885/Source/EPG/EPG_JYH_YUNNAN/src/web/sitv/epg/config/DZDP_User.xml
+END
